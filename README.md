@@ -7,10 +7,10 @@ It uses:
 - Numpy
 - OpenCV
 
-##Atention
+## Atention
 It will try to convert everyting on the input folder to the output folder, be sure to use folders with **only** images.
 
-##Example
+## Example
 Normal image
 ![ss](https://i.imgur.com/WDmgIiW.jpg)
 Fried image
