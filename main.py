@@ -56,7 +56,7 @@ def fryImage(imagePath):
 def badPosterize(imageNormal):
     """
     Posterize the image through a color list, diving it and making a pallete.
-    Finally, applying to the image and returing the image with a the new pallete
+    Finally, applying to the image and returning the image with a the new pallete
     :param imageNormal: CV opened image | imageNormal | The normal image opened with OpenCV
     """
     colorList = np.arange(0, 256)
@@ -69,9 +69,9 @@ def badPosterize(imageNormal):
 
 def folderCheck(inputFolder, outputFolder):
     """
-    It receives the folder, get all files and make a pair for each opene
-    After that, each pair is posterized and the save is the lower.
-    With the image being fryed and being saved at the output foder plus a "-fry" for the fried one.
+    It receives the folder, get all files and make a pair for each open file
+    After that, each pair is posterized and is saved at lower quality.
+    With the image being fryed and being saved at the output folder plus a "-fry" for the fried one.
     :param inputFolder: string | inputFolder | Input folder path
     :param outputFolder: string | outputFolder | Output folder path
     """
